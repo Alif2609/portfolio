@@ -289,10 +289,6 @@ nav {
   );
 }
 
-.skills .section-h {
-  margin-bottom: 2rem;
-}
-
 /*  */
 /*  */
 
@@ -717,6 +713,11 @@ footer {
 
   .home .home-wrap .name-flex .profile-picture {
     width: 200px;
+  }
+  /*  */
+
+  .skills .section-h {
+  margin-bottom: 2rem;
   }
   /*  */
   .segment-box.sc-projects {
