@@ -393,6 +393,7 @@ label {
 label input,
 label textarea {
   color: var(--color-bg);
+  font-family: var(--font-arimo);
   font-weight: 500;
   font-size: var(--fs-base-sm);
   letter-spacing: 0.6px;
