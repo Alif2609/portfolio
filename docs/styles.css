@@ -298,12 +298,7 @@ nav {
 
 .projects .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 95%));
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas:
-    "lg lg"
-    "lg2 lg2"
-    "lg3 lg3";
+
   gap: 1rem;
 }
 
@@ -314,16 +309,6 @@ nav {
     /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
     /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
     0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
-}
-
-.books-id {
-  grid-area: lg;
-}
-.web-shop {
-  grid-area: lg2;
-}
-.bilek-futsal {
-  grid-area: lg3;
 }
 
 .grid-content .project-img img {
@@ -717,20 +702,13 @@ footer {
   /*  */
 
   .skills .section-h {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
   /*  */
   .segment-box.sc-projects {
     width: 100%;
   }
-  .projects .project-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: none;
-  }
-  .grid-content {
-    grid-area: auto;
-  }
+
   /*  */
   .contact .email-container {
     width: 70%;
@@ -791,15 +769,7 @@ footer {
   .segment-box.sc-projects {
     margin-top: 0;
   }
-  .projects .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 1rem;
-  }
 
-  .grid-content {
-    grid-area: auto;
-  }
   /*  */
   .contact .email-container {
     width: 50%;
