@@ -798,9 +798,7 @@ footer {
   .home {
     height: 93vh;
   }
-  /* .home .home-wrap .name-flex .home-text-greeting {
-    transform: translateX(-200px) translateY(13px) rotate(-14deg);
-  } */
+ 
   .contact .email-container {
     width: 450px;
     margin: 3rem auto 0;
@@ -809,9 +807,5 @@ footer {
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-  .projects .project-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
 }
 /* MEDIA QUERY end*/
